@@ -1,0 +1,10 @@
+.leftJust {
+  float:left;
+  width: 100%;
+  height: 100%;
+}
+.rightJust {
+  float:right;
+  width: 100%;
+  height: 100%;
+}
