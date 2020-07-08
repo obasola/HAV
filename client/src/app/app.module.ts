@@ -15,6 +15,7 @@ import { FooterComponent } from './templates/footer/footer.component';
 import { NavbarComponent } from './templates/navbar/navbar.component';
 import { HeroesDashboardComponent } from './components/heroes-dashboard/heroes-dashboard.component';
 import { VilliansDashboardComponent } from './components/villians-dashboard/villians-dashboard.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { VilliansDashboardComponent } from './components/villians-dashboard/vill
     FooterComponent,
     NavbarComponent,
     HeroesDashboardComponent,
-    VilliansDashboardComponent
+    VilliansDashboardComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

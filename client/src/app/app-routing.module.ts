@@ -6,9 +6,11 @@ import { HeroesDashboardComponent } from "./components/heroes-dashboard/heroes-d
 import { VilliansDashboardComponent } from "./components/villians-dashboard/villians-dashboard.component";
 
 import { VillianComponent } from './components/villians/villian.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: LandingPageComponent },
   { path: 'hero', component: HeroComponent },
   { path: 'heroes', component: HeroesDashboardComponent},
   { path: 'villain', component: VillianComponent },
