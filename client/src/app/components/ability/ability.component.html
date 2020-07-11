@@ -15,34 +15,51 @@
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="headingTwo">
+    <div class="card-header" id="listHeading">
       <h2 class="mb-0">
         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           List Panel
         </button>
       </h2>
     </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+    <div id="collapseList" class="collapse" aria-labelledby="listHeading" data-parent="#accordionExample">      
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+       <table>
+         <tr>
+           <th>name</th>
+           <th>Description</th>
+        </tr>
+        <tr *ngFor="let ability of abilities">
+          <td>{{ability.name}}</td>
+          <td>{{ability.description}}</td>
+        </tr>
+       </table>
       </div>
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="headingThree">
+    <div class="card-header" id="editHeading">
       <h2 class="mb-0">
         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Edit Panel
         </button>
       </h2>
     </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+    <div id="collapseEdit" class="collapse" aria-labelledby="editHeading" data-parent="#accordionExample">
       <div class="card-body">
         <form id="abilityForm">
         
             <div class="form-group">
               <label for="exampleFormControlInput1"> Name</label>
-              <input type="test" class="form-control" id="ability.name" placeholder="edit ability">
+              <input type="text" class="form-control" 
+                      [(ngModel)]="ability.name" 
+                      name="ability.name" placeholder="edit ability">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"> Description</label>
+              <input type="text" class="form-control" 
+                      id="ability.description" 
+                      name="ability.name" placeholder="edit ability">
             </div>
 
           </form>

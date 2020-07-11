@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AbilityApiService } from '../../services/ability-api.service';
 import { Observable } from 'rxjs';
+import { Ability } from 'src/app/models/ability';
 
 @Component({
   selector: 'app-ability',
@@ -8,7 +9,9 @@ import { Observable } from 'rxjs';
   styleUrls: ['./ability.component.css']
 })
 export class AbilityComponent implements OnInit {
-  abilities: Observable<Object>[];
+  abilities: Ability[];
+  ability: Ability;
+   
   constructor(private abilityService: AbilityApiService) { }
 
   ngOnInit() {
