@@ -20,7 +20,7 @@ export class Hero extends Entity {
     required: true,
   })
   secretIdentity: string;
-
+  
   @property({
     type: 'string',
   })
