@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeroApiService } from 'src/app/services/hero-api.service';
 
 @Component({
   selector: 'app-heroes-dashboard',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heroes-dashboard.component.css']
 })
 export class HeroesDashboardComponent implements OnInit {
+  data;
+  heroService: HeroApiService;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(service: HeroApiService) { 
+    this.heroService = service;
   }
 
+  ngOnInit() {
+    this.loadHeroList();
+  }
+
+  loadHeroList() {
+    this.data = this.heroService.getHeroes();
+    console.log('data: '+this.data);
+  }
 }

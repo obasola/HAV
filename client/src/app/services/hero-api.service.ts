@@ -10,7 +10,7 @@ export class HeroApiService {
   GET_REQ = '/heroes';
   constructor(private httpClient: HttpClient) { }
 
-  getHeroes() {
+  public getHeroes() {
     let data = this.httpClient.get(this.URL+ this.GET_REQ);
     console.log(data);
     return data;

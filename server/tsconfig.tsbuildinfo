@@ -1822,7 +1822,7 @@
         "affectsGlobalScope": false
       },
       "./src/models/hero.model.ts": {
-        "version": "2a9d2805f8f493310fc64d9504eb9aa842363750222062a8a24c751a79377ef9",
+        "version": "164d80c73d7ba30980c86127f42d6d5f5a402a504581caad6c636cd952b7939c",
         "signature": "2c4c0657c27d9de0ae92c1cdcf3edad5cb0da450a2928c7b5c07b7984d09a2ae",
         "affectsGlobalScope": false
       },

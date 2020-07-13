@@ -18,6 +18,8 @@ import { NavbarComponent } from './templates/navbar/navbar.component';
 import { HeroesDashboardComponent } from './components/heroes-dashboard/heroes-dashboard.component';
 import { VilliansDashboardComponent } from './components/villians-dashboard/villians-dashboard.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import {AccordionModule} from 'primeng/accordion'; 
+import {TabViewModule} from 'primeng/tabview';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
