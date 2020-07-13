@@ -3,7 +3,6 @@ import { AbilityApiService } from '../../services/ability-api.service';
 import { Observable } from 'rxjs';
 import { Ability } from 'src/app/models/ability';
 import { convertUpdateArguments } from '@angular/compiler/src/compiler_util/expression_converter';
-import { defaultMaxListeners } from 'stream';
 
 @Component({
   selector: 'app-ability',
