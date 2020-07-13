@@ -11,7 +11,7 @@ import { defaultMaxListeners } from 'stream';
   styleUrls: ['./ability.component.css']
 })
 export class AbilityComponent implements OnInit {
-  abilities: Ability[{}];
+  abilities: Array<{}>;
   ability =  new Ability();
   service: AbilityApiService;
    
