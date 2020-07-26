@@ -9,13 +9,14 @@ import { VillianComponent } from './components/villians/villian.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { AbilityComponent } from './components/ability/ability.component';
 import { LocationComponent } from './components/location/location.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'ability', component: AbilityComponent },
   { path: 'home', component: LandingPageComponent },
   { path: 'hero', component: HeroComponent },
-  { path: 'heroes', component: HeroesDashboardComponent},
+  { path: 'heroes', component: HeroesComponent},
   { path: 'location', component: LocationComponent },
   { path: 'villain', component: VillianComponent },
   { path: 'villians', component: VilliansDashboardComponent}

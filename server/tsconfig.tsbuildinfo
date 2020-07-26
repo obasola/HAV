@@ -1186,17 +1186,17 @@
         "signature": "5eff4d1cd1afa8e2b79de736f8509a0d0c663ca0cba26713db636142b1ca2580",
         "affectsGlobalScope": false
       },
-      "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts": {
+      "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts": {
         "version": "9508fcc6616ea31bf848463f161571bcb0c8726b267a43e231f21fca775007e7",
         "signature": "9508fcc6616ea31bf848463f161571bcb0c8726b267a43e231f21fca775007e7",
         "affectsGlobalScope": false
       },
-      "./node_modules/openapi3-ts/dist/model/openapi.d.ts": {
+      "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts": {
         "version": "0aaac1eca2cda0e09152730f943814ff55bdfd9eead7630b8eeeda3a4de64d5d",
         "signature": "0aaac1eca2cda0e09152730f943814ff55bdfd9eead7630b8eeeda3a4de64d5d",
         "affectsGlobalScope": false
       },
-      "./node_modules/openapi3-ts/dist/model/server.d.ts": {
+      "./node_modules/openapi3-ts/dist/model/Server.d.ts": {
         "version": "737286d5a8cddd8afc923c70d68c23ebd01700a0b53cad4949b633ffd304c777",
         "signature": "737286d5a8cddd8afc923c70d68c23ebd01700a0b53cad4949b633ffd304c777",
         "affectsGlobalScope": false
@@ -1206,7 +1206,7 @@
         "signature": "6a967509640ff83b343c01c6dc5ef6330c929ce0e838b217768b46414e28e85c",
         "affectsGlobalScope": false
       },
-      "./node_modules/openapi3-ts/dist/dsl/openapibuilder.d.ts": {
+      "./node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts": {
         "version": "b5fb985d427871256ce82a572af57648e48a8372e1165936968ca5181d578da6",
         "signature": "b5fb985d427871256ce82a572af57648e48a8372e1165936968ca5181d578da6",
         "affectsGlobalScope": false
@@ -4185,15 +4185,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/loopback-datasource-juggler/types/common.d.ts"
       ],
-      "./node_modules/openapi3-ts/dist/dsl/index.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/dsl/openapibuilder.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/dsl/openapibuilder.d.ts": [
+      "./node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/openapi3-ts/dist/model/index.d.ts"
+      ],
+      "./node_modules/openapi3-ts/dist/dsl/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts"
       ],
       "./node_modules/openapi3-ts/dist/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -4201,26 +4201,26 @@
         "./node_modules/openapi3-ts/dist/dsl/index.d.ts",
         "./node_modules/openapi3-ts/dist/model/index.d.ts"
       ],
+      "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts"
+      ],
+      "./node_modules/openapi3-ts/dist/model/Server.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts"
+      ],
+      "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/openapi3-ts/dist/model/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/model/openapi.d.ts",
-        "./node_modules/openapi3-ts/dist/model/server.d.ts",
-        "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/model/openapi.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/model/server.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/model/openapi.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
+        "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+        "./node_modules/openapi3-ts/dist/model/Server.d.ts",
+        "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts"
       ],
       "./node_modules/path-to-regexp/dist/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -6775,15 +6775,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/loopback-datasource-juggler/types/common.d.ts"
       ],
+      "./node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/openapi3-ts/dist/model/index.d.ts"
+      ],
       "./node_modules/openapi3-ts/dist/dsl/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/openapi3-ts/dist/dsl/openapibuilder.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/dsl/openapibuilder.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/model/index.d.ts"
       ],
       "./node_modules/openapi3-ts/dist/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -6791,26 +6791,26 @@
         "./node_modules/openapi3-ts/dist/dsl/index.d.ts",
         "./node_modules/openapi3-ts/dist/model/index.d.ts"
       ],
+      "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts"
+      ],
+      "./node_modules/openapi3-ts/dist/model/Server.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts"
+      ],
+      "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/openapi3-ts/dist/model/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/openapi3-ts/dist/model/openapi.d.ts",
         "./node_modules/openapi3-ts/dist/model/server.d.ts",
         "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/model/openapi.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/model/server.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/openapi3-ts/dist/model/openapi.d.ts"
-      ],
-      "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/path-to-regexp/dist/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -7401,13 +7401,13 @@
       "./node_modules/loopback-datasource-juggler/types/scope.d.ts",
       "./node_modules/loopback-datasource-juggler/types/transaction-mixin.d.ts",
       "./node_modules/loopback-datasource-juggler/types/validation-mixin.d.ts",
+      "./node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts",
       "./node_modules/openapi3-ts/dist/dsl/index.d.ts",
-      "./node_modules/openapi3-ts/dist/dsl/openapibuilder.d.ts",
       "./node_modules/openapi3-ts/dist/index.d.ts",
+      "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+      "./node_modules/openapi3-ts/dist/model/Server.d.ts",
+      "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
       "./node_modules/openapi3-ts/dist/model/index.d.ts",
-      "./node_modules/openapi3-ts/dist/model/openapi.d.ts",
-      "./node_modules/openapi3-ts/dist/model/server.d.ts",
-      "./node_modules/openapi3-ts/dist/model/specificationextension.d.ts",
       "./node_modules/path-to-regexp/dist/index.d.ts",
       "./node_modules/reflect-metadata/index.d.ts",
       "./node_modules/strong-error-handler/index.d.ts",

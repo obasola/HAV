@@ -20,6 +20,7 @@ import { VilliansDashboardComponent } from './components/villians-dashboard/vill
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import {AccordionModule} from 'primeng/accordion'; 
 import {TabViewModule} from 'primeng/tabview';
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {TabViewModule} from 'primeng/tabview';
     NavbarComponent,
     HeroesDashboardComponent,
     VilliansDashboardComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
