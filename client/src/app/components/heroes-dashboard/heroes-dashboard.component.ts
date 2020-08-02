@@ -18,8 +18,8 @@ export class HeroesDashboardComponent implements OnInit {
     this.loadHeroList();
   }
 
-  loadHeroList() {
-    this.data = this.heroService.getHeroes();
+  async loadHeroList() {
+    this.data = await this.heroService.getHeroes();
     console.log('data: '+this.data);
   }
 }
